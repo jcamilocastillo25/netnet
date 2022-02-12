@@ -1,0 +1,64 @@
+*:root{
+  background-color: black;
+}
+
+.logo{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 7px;
+    margin: 30px;
+    
+}
+
+.direc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 0px;
+  
+   
+}
+.col{
+    color: white;
+}
+
+.peliculas-principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    margin: 30px;
+    background: url(../imagen/images.jpg);
+    background-position:center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+} 
+
+header  a:hover,
+header  a.activo {
+    color:rgb(241, 0, 0);
+}
+
+.cat{
+    color: aliceblue;
+}
+
+
+.cap{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    border: 2px solid;
+    
+}
+
+.mic{
+    cursor: pointer;
+}
+   
+.dad{
+    display: flex;
+    justify-content: space-evenly;
+}
